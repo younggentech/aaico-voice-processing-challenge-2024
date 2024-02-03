@@ -1,0 +1,14 @@
+name: Style check && tests
+on: push
+jobs:
+  style_check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v4
+      - name: Build docker image
+        run: docker build -t tests .
+      - name: Style check
+        run: docker run --rm tests make lint
+      - name: Test solution
+        run: docker run --rm tests make test

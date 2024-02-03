@@ -30,13 +30,12 @@ To have your solution considered, it must be reproducible by the AAICO team.
 
 #### Team
 
-Team name: [Team name]
+Team name: Digital Creators
 
 Members:
 
-- [Member Name] - [Member email]
-- [Member Name] - [Member email]
-- [Member Name] - [Member email]
+- Alexandr Ovsyannikov - alexov2004@gmail.com
+- Andrey Pomortsev - andreypomortsev@gmail.com
 
 #### Solution description
 
